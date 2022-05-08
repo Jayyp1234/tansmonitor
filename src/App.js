@@ -7,6 +7,16 @@ import mask from './image/mask-group.svg';
 import chart from './image/small-chart.svg';
 import graph from './image/big-grapgh@1x.svg';
 import icon1 from './image/group.svg';
+import icon2 from './image/wallet-43.svg';
+import icon3 from './image/wallet-43 (1).svg';
+import icon4 from './image/wallet-43 (2).svg';
+
+import icon5 from './image/Group 7.svg';
+import icon6 from './image/Group 7.1.svg';
+import icon7 from './image/Group 7.2.svg';
+import icon8 from './image/ic_fiber_manual_record_48px.svg';
+import icon9 from './image/single-01 2.svg';
+
 import DataTable from 'react-data-table-component';
 
 import $ from 'jquery';
@@ -66,19 +76,19 @@ function App() {
       <div>
         <small>Payments</small>
         <ul>
-          <li><img src={icon1}></img> <small>All Payments</small></li>
-          <li><img src={icon1}></img> <small>Reconcilled Payments</small></li>
-          <li><img src={icon1}></img> <small>Un - Reconcilled Payments</small></li>
-          <li><img src={icon1}></img> <small>Manual Settlement</small></li>
+          <li><img src={icon2}></img> <small>All Payments</small></li>
+          <li><img src={icon3}></img> <small>Reconcilled Payments</small></li>
+          <li><img src={icon4}></img> <small>Un - Reconcilled Payments</small></li>
+          <li><img src={icon8}></img> <small>Manual Settlement</small></li>
         </ul>
       </div>
       <div>
         <small>Orders</small>
         <ul>
-          <li><img src={icon1}></img> <small>All Orders</small></li>
-          <li><img src={icon1}></img> <small>Pending Orders</small></li>
-          <li><img src={icon1}></img> <small>Reconcilled Orders</small></li>
-          <li><img src={icon1}></img> <small>Merchant Profile</small></li>
+          <li><img src={icon5}></img> <small>All Orders</small></li>
+          <li><img src={icon6}></img> <small>Pending Orders</small></li>
+          <li><img src={icon7}></img> <small>Reconcilled Orders</small></li>
+          <li><img src={icon9}></img> <small>Merchant Profile</small></li>
         </ul>
       </div>
       </div>
